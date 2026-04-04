@@ -6,8 +6,7 @@ Notes:
 - Make sure to be on sunfish firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 04/06/2026).
-- Includes Lineage camera.
+- Includes LineageOS camera.
 
 Device changes:
 ==============================
@@ -17,4 +16,5 @@ Notable ROM changes:
 * New lockscreen clocks
 * Floating windows from A17 beta 3 enabled now on latest A16 QPR2
 * Dynamic Bar from AxionOS now available with help from crDroid
-* Remembering section added to Evolver > About to honor our former maintainer
+* Remembering section added to Evolver > About to honor our former
+maintainer

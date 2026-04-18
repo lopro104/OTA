@@ -10,11 +10,13 @@ Notes:
 
 Device changes:
 ==============================
-* None
+* Included an updater that works with my Unoffical builds!
+
 Notable ROM changes:
 ==============================
 * New lockscreen clocks
-* Floating windows from A17 beta 3 enabled now on latest A16 QPR2
+* Floating windows from A17 beta 3
 * Dynamic Bar from AxionOS now available with help from crDroid
 * Remembering section added to Evolver > About to honor our former
 maintainer
+* Trickystore is now integrated by default to the rom. 

@@ -1,19 +1,19 @@
 {
   "response": [
     {
-      "maintainer": "Lopro2030",
+      "maintainer": "Lopro 2030",
       "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 4a",
-      "filename": "EvolutionX-16.0-20260418-sunfish-11.6.3-Unofficial.zip",
-      "download": "https://sourceforge.net/projects/pixel-4a-evolutionx-unofficial/files/test/EvolutionX-16.0-20260418-sunfish-11.6.3-Unofficial.zip/download",
-      "timestamp": 1776530962,
-      "md5": "d9c1cec945c180c7ceb8746862175b5d",
-      "sha256": "0d3adaa094ce89ca16c9a261030ddfe0555b87754c2f356c14a82ecf9f60e060",
-      "size": 2199357249,
+      "filename": "EvolutionX-16.0-20260422-sunfish-11.6.3-Unofficial.zip",
+      "download": "https://sourceforge.net/projects/pixel-4a-evolutionx-unofficial/files/newest/EvolutionX-16.0-20260422-sunfish-11.6.3-Unofficial.zip/download",
+      "timestamp": 1776851036,
+      "md5": "8083df4431ca89ecc57aa708df5b6b24",
+      "sha256": "979e629790715bf6bb56d2842d886f6c66ec1fb83ad7e0862a5eb01d58d556e6",
+      "size": 2168436148,
       "version": "11.6.3",
-      "buildtype": "user",
-      "forum": "https://xdaforums.com/t/unofficial-16-qpr2-evolution-x-for-the-pixel-4a-sunfish.4781256/",
+      "buildtype": "userdebug",
+      "forum": "xdaforums.com/t/unofficial-16-qpr2-evolution-x-for-the-pixel-4a-sunfish.4781256/",
       "firmware": "",
       "github": "lopro104",
       "initial_installation_images": [

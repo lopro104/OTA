@@ -3,20 +3,20 @@ This is Android 16 QPR2 with April 2026 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Make sure to be on sunfish firmware first.
+- Make sure to be on Pixel 4a firmware first.
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Magisk is supported.
+- Play Integrity passes with keybox (As of 24/4/2026).
 - Includes LineageOS camera.
 
 Device changes:
 ==============================
-* Included an updater that works with my Unoffical builds!
+* Add working updater overlay to make my unoffical updates show in offical updater!
 
-Notable ROM changes:
+Notable ROM changes 04/24:
 ==============================
-* New lockscreen clocks
-* Floating windows from A17 beta 3
-* Dynamic Bar from AxionOS now available with help from crDroid
-* Remembering section added to Evolver > About to honor our former
-maintainer
-* Trickystore is now integrated by default to the rom. 
+Evolver: Drop redundant Photos spoof code in PIF
+Evolver: TrickyStore: Add security patch date management
+Evolver: Add Google Wallet to TrickyStore auto-select list
+version: Uprev to 11.6.4

@@ -7,16 +7,24 @@ Notes:
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Magisk is supported.
-- Play Integrity passes with keybox (As of 24/4/2026).
+- Play Integrity passes, RCS works (As of 28/4/2026).
 - Includes LineageOS camera.
 
 Device changes:
 ==============================
-* Add working updater overlay to make my unoffical updates show in offical updater!
+* Switch to lz4hc on level 9 compression
 
-Notable ROM changes 04/24:
+Notable ROM changes 04/27:
 ==============================
-Evolver: Drop redundant Photos spoof code in PIF
-Evolver: TrickyStore: Add security patch date management
-Evolver: Add Google Wallet to TrickyStore auto-select list
-version: Uprev to 11.6.4
+Evolver: Use general enable string for cutout ring
+Evolver: TrickyStore: Rework attestation controls and per-app mode picker
+Evolver: Replace HideAppListSettings with HideDeveloperStatusSettings
+manifest: Initialize for Evolution X 11.6.4
+sepolicy: Add sandbox rules
+Fix missing keyboard for password field
+Fix missing keyboard for password field
+config: Build AxSandbox
+Revert "overlay: add applock whitelist"
+AxThemeStore: Add Vietnamese translations
+Updater: Make it REUSE compatible
+

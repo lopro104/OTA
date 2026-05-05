@@ -1,0 +1,56 @@
+This is Android 16 QPR2 with May 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Make sure to be on Pixel 4a firmware first.
+- Clean flash is required if coming from March 2024 or older builds.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Magisk is supported.
+- Play Integrity passes, RCS works (As of 05/5/2026).
+- Includes LineageOS camera.
+
+Device changes:
+==============================
+* None
+
+Notable ROM changes 05/05:
+==============================
+Evolver: pif: fix auto-fetch reliability and default to blazer canary
+Revert "Evolver: Add dynamic bar event for ongoing calls"
+release: Enable show_icon_in_empty_shade
+Evolver: Spoofing: Restructure screen layout and clarify strings
+Evolver: PlayIntegrityFix: overhaul config handling, auto-fetch, and import guards
+Evolver: TrickyStore: Overhaul app picker and add per-app attestation mode
+Evolver: Misc cleanup and UI consistency fixes
+Evolver: Replace global Tensor toggle with per-app target picker
+Evolver: Update smart pixels
+Evolver: Clean up for dynamic bar
+overlay: Use google-sans-flex as default
+extras: Drop Evo navbar overlay
+Evolver: Misc: Overhaul app picker screens and consolidate shared UI
+GameSpace: Fix up gaming gesture lock
+GameSpace: Do not set process priority from sidebar
+GameSpace: Add toggle to auto detect games on install
+overlay: Use google-sans-flex for font config overlays
+pixel-style: Update overlays from stallion CP1A.260405.005
+pixel-style: Do not override qualified networks service
+sepolicy: Allow game space set thread priority
+sepolicy: Add support for game space
+Evolver: Add animation styles for QS tile toggle
+codec2: Treat IGBP transport failures as blocking
+WifiChipAidlImpl: Cache unsupported capability probes
+wifi_chip: Reduce legacy Wi-Fi HAL startup noise
+GameSpace: Use same thread priority for sidebar
+Revert "GameSpace: Do not set process priority from sidebar"
+GameSpace: Remove unimplemented trim memory callback
+GameSpace: Add changes for call listener improvements
+Settings: Hardware info: Gate OTA maintainer fetch behind official build type
+Evolver: Allow configure bass haptics playback for pulse
+Evolver: Add subtle haptics on bass spikes
+Evolver: Add particle and waveform renderer styles
+sepolicy: Address sandbox denials
+sepolicy: Add permissions for secure Sandbox Vault
+Automatic translation import
+Evolver: TrickyStore: Add keybox revocation status check
+Evolver: Add edge light preview

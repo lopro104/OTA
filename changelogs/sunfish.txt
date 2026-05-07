@@ -12,7 +12,7 @@ Notes:
 
 Device changes:
 ==============================
-* None
+* Revert stupid changes
 
 Notable ROM changes 05/05:
 ==============================

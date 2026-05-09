@@ -1,1 +1,26 @@
-/home/lopro/EvolutionX/out/target/product/sunfish/sunfish.json
+{
+  "response": [
+    {
+      "maintainer": "Apelete Seketeli",
+      "currently_maintained": false,
+      "oem": "Google",
+      "device": "Pixel 4a",
+      "filename": "EvolutionX-16.0-20260508-sunfish-11.7-Unofficial.zip",
+      "download": "https://sourceforge.net/projects/your_unoffical_sourceforge_project/files/sunfish/16/EvolutionX-16.0-20260508-sunfish-11.7-Unofficial.zip/download",
+      "timestamp": 1778269729,
+      "md5": "8ac0964868ab32c957ef424a84bdc76d",
+      "sha256": "b0b2dbf589a7fb579f1b3544c5681cb7ae2fc1d965d6bd00c6577e14fd21d2c7",
+      "size": 2757638172,
+      "version": "11.7",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-16-official-evolution-x-for-pixel-4a-sunfish.4761206/",
+      "firmware": "",
+      "paypal": "https://paypal.me/aseketeli",
+      "github": "apelete",
+      "initial_installation_images": [
+        "boot"
+      ],
+      "extra_images": []
+    }
+  ]
+}

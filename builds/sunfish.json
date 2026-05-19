@@ -1,22 +1,21 @@
 {
   "response": [
     {
-      "maintainer": "Apelete Seketeli",
+      "maintainer": "Lopro 2030",
       "currently_maintained": false,
       "oem": "Google",
       "device": "Pixel 4a",
-      "filename": "EvolutionX-16.0-20260508-sunfish-11.7-Unofficial.zip",
-      "download": "https://sourceforge.net/projects/your_unoffical_sourceforge_project/files/sunfish/16/EvolutionX-16.0-20260508-sunfish-11.7-Unofficial.zip/download",
-      "timestamp": 1778269729,
-      "md5": "8ac0964868ab32c957ef424a84bdc76d",
-      "sha256": "b0b2dbf589a7fb579f1b3544c5681cb7ae2fc1d965d6bd00c6577e14fd21d2c7",
-      "size": 2757638172,
+      "filename": "EvolutionX-16.0-20260519-sunfish-11.7-Unofficial.zip",
+      "download": "https://sourceforge.net/projects/pixel-4a-evolutionx-unofficial/files/11.7/EvolutionX-16.0-20260519-sunfish-11.7-Unofficial.zip/download",
+      "timestamp": 1779196034,
+      "md5": "521a7b8928152e475e7fa276c79c30f8",
+      "sha256": "4b6b5e9c21fb30c96f6071be5facb3e7da92844403776b760593f573d0091dea",
+      "size": 2899142946,
       "version": "11.7",
       "buildtype": "userdebug",
-      "forum": "https://xdaforums.com/t/rom-16-official-evolution-x-for-pixel-4a-sunfish.4761206/",
+      "forum": "https://xdaforums.com/t/unofficial-16-qpr2-evolution-x-for-the-pixel-4a-sunfish.4781256/",
       "firmware": "",
-      "paypal": "https://paypal.me/aseketeli",
-      "github": "apelete",
+      "github": "lopro104",
       "initial_installation_images": [
         "boot"
       ],

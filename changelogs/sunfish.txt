@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with May 2026 security patches
+This is Android 16 QPR2 with June 2026 security patches
 
 Notes:
 ==============================
@@ -7,134 +7,15 @@ Notes:
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Magisk is supported.
-- Play Integrity passes, RCS works (As of 19/5/2026).
+- Play Integrity passes, RCS works (As of 13/6/2026).
 - Includes LineageOS camera.
 
 Device changes:
 ==============================
-* Added a second build with Kernel SU Next (i use https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v3.2.0/KernelSU_Next_v3.2.0-spoofed_33129-release.apk and it works fine!)
+* none
 
-Notable ROM changes 05/07:
+Comment:
 ==============================
-Evolver: Add master switch to TrickyStore and PlayIntegrityFix fragments
-Evolver: TrickyStore: Add official keybox fetch support
-Evolver: PIF: Tiered auto-fetch based on patch freshness
-Evolver: About: support per-device XDA forum links for multi-device maintainers
-Evolver: Themes: Hide navbar icons picker when gesture navigation is active
-Evolver: Themes: Simplify onPreferenceChange lock sound handling
-Evolver: Add custom clock aod transition [2/2]
-Evolver: Changelog: Improve changelog color contrast
-Evolver: Add swiftui and facebook emoji
-Evolver: Add support for dynamic color for Evolution X/Google (monet) boot animations [3/3]
-Settings: Introduce per app GPU screen composition setting [2/2]
-bootanimation: Add support for dynamic color for Evolution X/Google (monet) boot animations [1/3]
-temp update battery styles
-Settings: fix udfps | skip button overlap issue
-Settings: display: gate display engine category on persist prop
-development: greyed-out `Disable HW overlays` option
-Settings: Logo: Add animated RGB glow; use old logo on light theme
-sepolicy: adding usap pool rules
-config: gate display engine category on persist prop
-MediaSync: fix nullptr dereference in onAbandoned_l on output death
-MediaSync: remove InputListener death recipient dead code
-MediaSync: fix nullptr dereference when detachNextBuffer fails
-Fix hidden AP remove WifiEntry during connection.
-Revert "Evolver: Add nothing os charging animation"
-Evolver: Allow change media player position [2/2]
-Evolver: Introduce quicksettings widget
-Evolver: Allow switching QS tile color to pre-qpr shade [2/2]
-Evolver: Restructure spoofing, consolidate strings, add TrickyStore/PIF improvements
-[viperfx_aidl] viperfx aidl integrate
-compatibility_matrices: Allow soundtrigger 2.2 on target-level 6
-compatibility_matrices: Add p/android-4.4 into FCM 5
-Evolver: Refactor Lockscreen Media art [2/2]
-Evolver: Implement custom color support for pulse [2/2]
-Evolver: Reorganize categories and move flashlight to misc
-Evolver: Add sound preview to lock/unlock sound picker
-Evolver: Add seekbar navigation to clock preview
-Evolver: Add 2 colon clocks
-themes: Update json for back gesture and charging animations
-themes: Add back gesture | charging anim themes
-strings: Added a Russian translation
-ThemeStore: Exclude more prebuild overlays
-ThemeStore: Add more battery style previews
-ThemeStore: Switch to new json version
-Evolver: Drop charging animation changes [SQUASHED]
-Evolver: Introduce {Global,Secure,System}PrimarySwitchPreference
-keeping expensive rendering across blur cache hits
-sidebar: permissions: allowlist MANAGE_GAME_MODE for LMOFreeformSidebar
-sidebar: Implement configurable swipe-to-open gesture for sidebar
-sidebar: Integrate GameSpace awareness and auto-hide support
-sidebar: Implement gesture setting to open sidebar drawer on tap
-sidebar: Refactor settings navigation using NavController
-sidebar: Replace custom drawer icons with Material Icons
-Sidebar: Implement configurable slider width
-sidebar: Refactor customization into standalone activity
-Settings: Restore Russian "Media vibration" translation
-Revert "fixup! RU: Google Import translations"
-extras: Update BCR to Version v2.10
-Evolver: Reduce clock opacity min value to 0
-Evolver: Show dynamic summaries for applicable preferences
-Evolver: Consolidate strings, restructure spoofing, fix stale state bugs
-overlay: Use Dark Shade from Aluminium OS as default wallpaper
-Updater: fix NPE when update is not found in controller
-Updater: keep local update entry after install until reboot
-ThemeStore: Prioritize active themes
-ThemeStore: fixing scaffold|top app bar issues
-ThemeStore: Add Vietnamese translations
-fixing applocker activity lifecycle issues
-fixing auth activity lifecycle issues
-Revert "Evolver: Allow toggle waveform seekbar [2/2]"
-bootanimation: Update from Pixel 10 series
-Settings: Fix battery widget not updating in real time
-Sandbox: Fixing auth activity lifecycle issues
-themes: Import waveform APKs
-ThemeStore: add support for dynamic media waveform themes
-bluetooth: fix DISALLOW_CONFIG_BLUETOOTH blocking settings toggle
-Evolver: TrickyStore: Improve robustness and UX
-Evolver: Bring back status bar brightness control
-Fix BTA_JV_DEF_RFC_MTU calculation for 3DH5
-Fix SCO volume off-by-1 error in HFP absolute volume mapping
-Evolver: Allow toggling keyguard behind scrim visibility [2/2]
-OmniJaws: Add Pirate weather provider to compose UI
-OmniJaws: Update RU translations
-OmniJaws: Add Pirate weather provider
-OmniJaws: Fix weather icon pack updates
-OmniJaws: Add themed outline icon resources
-OmniJaws: Hide icon theme settings for non-themeable packs
-OmniJaws: Convert Google New icons to themed resources
-OmniJaws: Add app icon theme setting
-OmniJaws: Resolve app weather icons through icon provider
-OmniJaws: Add widget icon theme handling
-OmniJaws: Convert Nothing icons to themed resources
-OmniJaws: Add theme-aware icon provider
-OmniJaws: Add weather icon pack model
-OmniJaws: Add dark mode for Nothing Icon Pack
-OmniJaws: Add front-end
-WeatherProvider: Update import path for OmniJawsClient
-pixel-style: charger: Convert build system to Android.bp
-envsetup: Export the `TARGET_PREBUILT_KERNEL_HEADERS` variable, if it exists
-Bluetooth timeout feature
-l2cap: Use basic mode for edge case devices
-skip abort crash on failed init
-ignore EnableRealTimeScheduling failures
-SBC Dual Channel (SBC HD) support - redux
-ignore invalid mask
-Update valid phone number for VoIP call
-Initiate codec negotiation when AT+BCC is received
-link commands triggered after classic link disconnection
-Bluetooth: Add missing connect permission
-Fix BT noise issue during startup
-leaudio: Overriding bit depth for broadcast as well
-overlay: Update DocumentsUIOverlay
-extras: sdk: Add common utils lib
-extras: sdk: Import material 3 library v1.5.0-alpha12
-extras: sdk: Remove device info dependency in compose sdk
-extras: sdk: Add platform hooks
-extras: sdk: Add compose lifecycle utils
-Evolver: Add Settings icon background customization [2/2]
-Evolver: Bring back status bar brightness control [2/2]
-config: gate display engine category on persist prop [1/2]
-feat: sleep mode deep sleep toggle [2/2]
-Settings: Add Settings icon background customization [1/2]
-Settings: display: gate display engine category on persist prop [2/2]
+Sorry for late update!
+Also when Android 17 drops it will come with less EvoltionX features at the start and it will get more progressively.
+

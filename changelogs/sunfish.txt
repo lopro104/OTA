@@ -7,7 +7,7 @@ Notes:
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Magisk is supported.
-- Play Integrity passes, RCS works (As of 13/6/2026).
+- Play Integrity kinda passes, RCS works (As of 16/6/2026).
 - Includes LineageOS camera.
 
 Device changes:
@@ -16,6 +16,5 @@ Device changes:
 
 Comment:
 ==============================
-Sorry for late update!
-Also when Android 17 drops it will come with less EvoltionX features at the start and it will get more progressively.
+Cool new feature: in "Settings -> The Evolver -> Miscellaneous -> Spoofing -> Tricky Store" you can download a offical EvolutionX keybox which helps you get strong integrety (if the keybox is working) tho i dont think there is a working keybox as of june 16th
 

@@ -14,7 +14,3 @@ Device changes:
 ==============================
 * none
 
-Comment:
-==============================
-Cool new feature: in "Settings -> The Evolver -> Miscellaneous -> Spoofing -> Tricky Store" you can download a offical EvolutionX keybox which helps you get strong integrety (if the keybox is working) tho i dont think there is a working keybox as of june 16th
-

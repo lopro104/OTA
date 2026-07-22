@@ -1,4 +1,4 @@
-This is Android 16 QPR2 with June 2026 security patches
+This is Android 16 QPR2 with July 2026 security patches
 
 Notes:
 ==============================
@@ -7,7 +7,7 @@ Notes:
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Magisk is supported.
-- Play Integrity kinda passes, RCS works (As of 16/6/2026).
+- Play Integrity kinda passes, RCS works (As of 22/7/2026).
 - Includes LineageOS camera.
 
 Device changes:
